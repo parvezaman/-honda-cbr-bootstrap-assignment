@@ -50,3 +50,11 @@ header{
 .accordian-body-text{
     color: var(--accordian-body-text-color);
 }
+.my-secondary-color{
+    color: var(--secondary-color);
+}
+footer{
+    background-color: var(--header-background-color);
+    color: var(--header-primary-text-color);
+    height: 115px;
+}
