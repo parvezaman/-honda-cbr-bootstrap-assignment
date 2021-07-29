@@ -5,9 +5,13 @@
     --button-color: #E76F51;
     --bold-text-color: #0A0826;
     --secondary-color: #6C6C6C;
+    --accordian-body-text-color: #7E848C;
 }
 *{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    overflow-y: visible;
+
     /* margin: 0;
     padding: 0; */
 }
@@ -19,8 +23,11 @@ header{
 }
 .title-text-weight{
     font-weight: 600;
-    font-size: 48px;
+    overflow: hidden;
 }
+/* .title-text-size{
+    font-size: 48px;
+} */
 
 .secondary-text-color{
     color: var(--header-secondary-text-color);
@@ -40,4 +47,6 @@ header{
 .grayscale{
     filter: grayscale(100%);
 }
-
+.accordian-body-text{
+    color: var(--accordian-body-text-color);
+}
