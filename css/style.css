@@ -3,7 +3,6 @@
     --header-primary-text-color: #FFFFFF;
     --header-secondary-text-color: #E0E0E0;
     --button-color: #E76F51;
-    --bold-text-color: #0A0826;
     --secondary-color: #6C6C6C;
     --accordian-body-text-color: #7E848C;
 }
@@ -11,23 +10,16 @@
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     overflow-y: visible;
-
-    /* margin: 0;
-    padding: 0; */
 }
 
 header{
     background-color: var(--header-background-color);
-    /* padding-top: 155px;
-    padding-bottom: 95px; */
+    
 }
 .title-text-weight{
     font-weight: 600;
     overflow: hidden;
 }
-/* .title-text-size{
-    font-size: 48px;
-} */
 
 .secondary-text-color{
     color: var(--header-secondary-text-color);
@@ -41,9 +33,7 @@ header{
 .my-button-color{
     color: var(--button-color);
 }
-/* .card-border{
-    border-style: none !important;
-} */
+
 .grayscale{
     filter: grayscale(100%);
 }
