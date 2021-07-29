@@ -5,7 +5,6 @@
     --button-color: #E76F51;
     --bold-text-color: #0A0826;
     --secondary-color: #6C6C6C;
-    --background: #E5E5E5;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -20,7 +19,9 @@ header{
 }
 .title-text-weight{
     font-weight: 600;
+    font-size: 48px;
 }
+
 .secondary-text-color{
     color: var(--header-secondary-text-color);
 }
@@ -30,3 +31,13 @@ header{
     padding: 10px 46px;
     border-radius: 10px;
 }
+.my-button-color{
+    color: var(--button-color);
+}
+.card-border{
+    border-style: none !important;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+
