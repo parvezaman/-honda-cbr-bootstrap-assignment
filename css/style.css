@@ -41,9 +41,9 @@ header{
 .my-button-color{
     color: var(--button-color);
 }
-.card-border{
+/* .card-border{
     border-style: none !important;
-}
+} */
 .grayscale{
     filter: grayscale(100%);
 }
